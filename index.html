@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Who invested early in Uber?</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
+    />
+  </head>
+  <style>
+    .container {
+      transform: translateY(-400px) translateX(-2500px);
+      display: flex;
+    }
+
+    @media (min-width: 600px) {
+      .container {
+        transform: translateY(-800px) translateX(-800px);
+      }
+    }
+  </style>
+
+  <body>
+    <div class="flex justify-center flex-column items-center">
+      <h1 class="system-sans-serif f-6 tc">
+        Who invested early in Uber?
+      </h1>
+      <button class="btn br3" style="width: 300px; font-size: 36px;">
+        Find out now
+      </button>
+    </div>
+
+    <div class="container">
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-7.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-1.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-2.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-3.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-4.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-5.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+      <div
+        class="br3 ba card flex bg-white justify-center items-center relative"
+        style="width: 262px; padding: 40px 30px;"
+      >
+        <span
+          style="position: absolute; top: 11px; left: 11px; font-size: 40px;"
+          >J</span
+        >
+        <div
+          class="br3 ba"
+          style="background-image: url('./images/jason-6.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover; width: 222px; height: 256px;"
+        ></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="solitaireVictory.js"></script>
+    <script>
+      $(document).on("ready", function() {
+        $(document).on("click", ".btn", function() {
+          $(".card").solitaireVictory({
+            bounce: 0.7,
+            stagger: 100
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
